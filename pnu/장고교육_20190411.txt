@@ -1,0 +1,93 @@
+https://github.com/django/django/
+
+GUI / CLI
+
+C:\Users\user>pip install "django~=2.1.0"
+
+C:\Users\user\pnu>python manage.py runserver
+
+github 주소 : http://bit.ly/2WWKEy0
+
+dir 해서 manage.py 파일이 있는 디렉토리에서 확인
+C:\Users\user\pnu>python manage.py migrate
+C:\Users\user\pnu>python manage.py createsuperuser
+DB계정 : hjkim
+
+
+DRF : django rest framework
+
+
+C:\Users\user\pnu>python manage.py --help
+C:\Users\user\pnu>python manage.py startapp shop
+
+C:\Users\user\pnu>python manage.py makemigrations shop
+C:\Users\user\pnu>python manage.py migrate shop --> DB테이블 생성
+
+https://askcompany.slack.com/
+
+
+네이버 클라우더 서비스 : https://www.gov-ncloud.com
+
+
+bootstrap cdn
+https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+
+
+
+C:\Users\user\pnu>pip install pylint-django
+
+
+Settings.json 생성방법 : FILE - Preferences - Settings 선택 후 {} 클릭
+
+1. 장고 환경을 세팅 후 shell 연다
+C:\Users\user\pnu>python manage.py shell
+
+requirements.txt 파일을 만들고 아래 명령어 실행
+C:\Users\user\pnu>pip install -r requirements.txt
+
+import 자동으로 해주기 때문에 편리하게 사용 가능
+C:\Users\user\pnu>python manage.py shell_plus
+
+
+
+******************************** 20190412
+
+C:\Users\user\pnu>python manage.py inspectdb
+C:\Users\user\pnu>python manage.py inspectdb > sample_models.py
+
+C:\Users\user\pnu>python manage.py showmigrations
+
+C:\Users\user\pnu>python manage.py makemigrations shop
+
+-- DB 생성전 쿼리 확인 명령
+C:\Users\user\pnu>python manage.py sqlmigrate shop 0002_shop
+
+C:\Users\user\pnu>python manage.py migrate shop 0001_initial
+
+https://sqlitebrowser.org/dl/
+
+-- 글자수 체크
+http://127.0.0.1:8000/admin/
+
+
+
+-- azure webapp container startup 검색
+https://azure.microsoft.com/ko-kr/services/app-service/containers/
+
+https://www.heroku.com/
+
+https://devcenter.heroku.com/articles/heroku-cli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
